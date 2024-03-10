@@ -1,0 +1,27 @@
+---- [ Matches (26 in 1 files) ----
+superled.c line 81 : u8 bn_buf[10];
+superled.c line 89 : const u8 color_tab[10]={
+superled.c line 104 : const u8 bringtness_tab[]={0x00,0x010,0x20,0x30,0x40,0x50,0x60,0x80,0xA0,0xC0,0xFF};
+superled.c line 108 : const u8 speed_tab[]={1,2,3,4,5,6,7,10,15,25};
+superled.c line 113 : 					const u8 MODE_G_color_tab_g[]={ 0, 3, 6, 9,12,15,18,21,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,21,18,15,12, 9, 6, 3, 0, 3, 6, 9,12,15,18,21,24,21,18,15,12, 9, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0,};
+superled.c line 116 : 					const u8 MODE_G_color_tab_r[]={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 9,12,15,18,21,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,21,18,15,12, 9, 6, 3,};
+superled.c line 119 : 					const u8 MODE_G_color_tab_b[]={24,24,24,24,24,24,24,24,24,21,18,15,12, 9, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6, 9,12,15,18,21,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,};
+set_color_grb in superled.c : 	//s_color=color_tab[s_color];	
+set_color_grb in superled.c : 	//bringtness_full=bringtness_tab[g_comval.bn_lv];
+mode_A_H in superled.c : 	//i=bringtness_tab[g_comval.bn_lv];
+mode_A_H in superled.c : 	bn_buf[9]=0;
+mode_A_H in superled.c : 	bn_buf[8]=0;
+mode_A_H in superled.c : 	bn_buf[7]=4;
+mode_A_H in superled.c : 	bn_buf[6]=5;
+mode_A_H in superled.c : 	bn_buf[5]=6;
+mode_A_H in superled.c : 	bn_buf[4]=7;
+mode_A_H in superled.c : 	bn_buf[3]=8;
+mode_A_H in superled.c : 	bn_buf[2]=i;
+mode_A_H in superled.c : 	bn_buf[1]=i;
+mode_A_H in superled.c : 	bn_buf[0]=i;
+mode_A_H in superled.c : 		//s_color=color_tab[color_cur];
+mode_A_H in superled.c : 		bringtness_full=bn_buf[i];
+mode_G in superled.c : 		//send_data=MODE_G_color_tab_g[i]*g_comval.bn_lv;
+mode_G in superled.c : 		//send_data=MODE_G_color_tab_r[i]*g_comval.bn_lv;
+mode_G in superled.c : 		//send_data=MODE_G_color_tab_b[i]*g_comval.bn_lv;		
+main in superled.c : 		if (led_tick>speed_tab[g_comval.speed])

@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "XL_parameter.C": "cpp",
+        "XL_init.C": "cpp",
+        "XL_I2C24C02.C": "cpp",
+        "XL_RGB_Jump.C": "cpp",
+        "XL_key_led.C": "cpp",
+        "XL_time1.C": "cpp",
+        "XL_sleep_dingshi.C": "cpp",
+        "xl_sleep_ic.h": "c",
+        "xl_key_led.h": "c",
+        "XL_key_juzheng.C": "cpp",
+        "XL_RGB_Color.C": "cpp",
+        "XL_table.C": "cpp",
+        "XL_HC_color.C": "cpp",
+        "XL_HC_send.C": "cpp",
+        "XL_HC_qicailiushui.C": "cpp",
+        "XL_RGB_fade.C": "cpp",
+        "XL_HC_one_color_liushui_9999999900.C": "cpp",
+        "XL_HC_fade.C": "cpp",
+        "XL_RGB_liushui_Jump.C": "cpp",
+        "XL_SMG.C": "cpp",
+        "XL_SMG_6_IO.C": "cpp"
+    }
+}
